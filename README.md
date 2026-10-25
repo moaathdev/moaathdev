@@ -27,7 +27,7 @@ I try to hold every project to the same bar: **no hidden dependencies, explicit 
 
 ## Featured projects
 
-### [IDS Shield](https://github.com/gghhjjll/ids-shield)
+### [IDS Shield](https://github.com/moaathdev/ids-shield)
 
 A dependency-free Intrusion Detection System for Windows, built on raw sockets.
 
@@ -38,7 +38,7 @@ A dependency-free Intrusion Detection System for Windows, built on raw sockets.
 
 `Python` · `raw sockets` · `detection logic`
 
-### [Student Attendance System](https://github.com/gghhjjll/studentweb)
+### [Student Attendance System](https://github.com/moaathdev/studentweb)
 
 A Flask application for tracking student attendance, lectures and timetables, with an Arabic RTL interface.
 

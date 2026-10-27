@@ -11,7 +11,7 @@
 
 ## About Me
 
-I'm **Moaa** (Moaaath), a security-minded developer focused on building practical, readable tools at the intersection of **network security** and **backend development**.
+I'm (Moaath), a security-minded developer focused on building practical, readable tools at the intersection of **network security** and **backend development**.
 
 - 🔍 I care about **detection logic**, packet-level behavior, and understanding *how* things actually work under the hood
 - 🧩 I build with the mindset: *simple enough to audit, explicit enough to debug*

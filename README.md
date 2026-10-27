@@ -2,77 +2,101 @@
 
 # Moaath
 
-**Security-minded developer** — I build small, readable tools for network defence and web apps.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Security-Minded+Developer;Blue+Team+%7C+Network+Security;Python+%7C+Flask+%7C+Backend+Development)](https://git.io/typing-svg)
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub followers](https://img.shields.io/github/followers/moaathdev?style=for-the-badge&logo=github&color=0D1117)](https://github.com/moaathdev?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=moaathdev&style=for-the-badge&color=0e75b6)](https://github.com/moaathdev)
 
 </div>
 
----
+## About Me
 
-## About
+I'm **Moaa** (Moaaath), a security-minded developer focused on building practical, readable tools at the intersection of **network security** and **backend development**.
 
-I like problems where correctness matters more than cleverness. Most of my work sits in two places:
+- 🔍 I care about **detection logic**, packet-level behavior, and understanding *how* things actually work under the hood
+- 🧩 I build with the mindset: *simple enough to audit, explicit enough to debug*
+- 🛡️ Drawn to **Blue Team** work — detection, visibility, and defensive tooling
+- 🎯 Goal: write tools I'd trust enough to explain line by line
 
-- **Network security in Python** — packet parsing, detection logic, alerting. No magic libraries; I'd rather read the bytes myself.
-- **Full-stack web apps** — Flask or PHP, from the data model to a real deployment.
-
-I try to hold every project to the same bar: **no hidden dependencies, explicit logic, and documentation that tells the truth about limitations.**
-
----
-
-## Featured projects
-
-### [IDS Shield](https://github.com/moaathdev/ids-shield)
-
-A dependency-free Intrusion Detection System for Windows, built on raw sockets.
-
-- Detects TCP `SYN` / `FIN` / `XMAS` / `NULL` scans, UDP sweeps and ICMP ping floods
-- Per-source sliding windows, with independent state for ICMP so one protocol can't mask another
-- Two-stage alarm cooldown, idle-source reaping, fragment-aware parsing
-- 16 unit tests and a GitHub Actions CI matrix
-
-`Python` · `raw sockets` · `detection logic`
-
-### [Student Attendance System](https://github.com/moaathdev/studentweb)
-
-A Flask application for tracking student attendance, lectures and timetables, with an Arabic RTL interface.
-
-- Role-based access for admins and students, with auto-generated per-student codes
-- Attendance marking with explicit-save and unsaved-changes warnings
-- Lecture file upload/download, timetable management, live statistics
-- Deployment-ready: `render.yaml`, `Procfile`, environment-variable config
-
-`Python` · `Flask` · `deployment`
-
----
-
-## Toolbox
-
-```text
-Languages   Python · PHP · SQL · JavaScript · Bash
-Frameworks  Flask
-Data        MySQL · SQLite · JSON
-Tooling     Git · GitHub Actions · ruff · Render
-Systems     Windows · Linux
-```
-
----
-
-## Currently
-
-- **Learning** detection engineering — moving from fixed thresholds toward real rules (Sigma-style thinking)
-- **Refactoring** the single-file Flask app into blueprints, with tests
-- **Reading** network traffic byte by byte, one header at a time
-
----
+## Tech Stack
 
 <div align="center">
 
-*I document limitations as carefully as features — a tool that hides its edges is a tool you can't trust.*
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-0D1117?style=for-the-badge&logo=php&logoColor=777BB4)
+![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
+![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=003B57)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Windows](https://img.shields.io/badge/Windows-0D1117?style=for-the-badge&logo=windows&logoColor=0078D6)
+
+</div>
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/moaathdev/ids-shield">IDS Shield</a></h3>
+      <p align="center">Lightweight, dependency-free Windows Intrusion Detection System built on raw sockets.</p>
+      <p align="center">
+        <a href="https://github.com/moaathdev/ids-shield">
+          <img src="https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Network%20Security-8A2BE2?style=flat-square" />
+        <img src="https://img.shields.io/badge/Blue%20Team-0052B4?style=flat-square" />
+        <img src="https://img.shields.io/github/actions/workflow/status/moaathdev/ids-shield/ci.yml?branch=main&label=CI&style=flat-square" />
+      </p>
+      <p align="center"><b>Highlights:</b> SYN/FIN/XMAS/NULL/UDP/ICMP detection • Sliding window per source • Cooldown logic • Fragment-aware parsing • Unit tests + CI</p>
+    </td>
+    <td width="50%">
+      <h3 align="center"><a href="https://github.com/moaathdev/studentweb">Student Attendance System</a></h3>
+      <p align="center">Arabic RTL web app for managing students, attendance, lectures and timetables with real deployment in mind.</p>
+      <p align="center">
+        <a href="https://github.com/moaathdev/studentweb">
+          <img src="https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="https://moaathdev.pythonanywhere.com">
+          <img src="https://img.shields.io/badge/Live%20Demo-2EA44F?style=for-the-badge&logo=pythonanywhere&logoColor=white" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+        <img src="https://img.shields.io/badge/HTML5-CSS3-JS-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/Arabic%20RTL-006C35?style=flat-square" />
+        <img src="https://img.shields.io/badge/MIT-green?style=flat-square" />
+      </p>
+      <p align="center"><b>Highlights:</b> Role-based access • Lecture uploads • Timetable management • Environment-based config • Deployed on PythonAnywhere</p>
+    </td>
+  </tr>
+</table>
+
+## GitHub Stats
+
+<div align="center">
+
+![Moaaath's GitHub Stats](https://github-readme-stats.vercel.app/api?username=moaathdev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-starts.vercel.app/api/top-langs/?username=moaathdev&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+## Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/moaathdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:moaath1moaath@gmail.com)
+
+</div>
+
+<div align="center">
+
+<i>"Write code you can read after 6 months."</i>
 
 </div>

@@ -74,6 +74,27 @@ I'm (Moaath), a security-minded developer focused on building practical, readabl
       <p align="center"><b>Highlights:</b> Role-based access • Lecture uploads • Timetable management • Environment-based config • Deployed on PythonAnywhere</p>
     </td>
   </tr>
+  <tr>
+    <td colspan="2">
+      <h3 align="center"><a href="https://github.com/moaathdev/green-iraq">🌱 تشجير العراق — Afforestation Campaign</a></h3>
+      <p align="center">Arabic RTL campaign website supporting tree planting in Iraq, with hand-crafted SVG posters, awareness programs, animated subtitles, and a donation page.</p>
+      <p align="center">
+        <a href="https://github.com/moaathdev/green-iraq">
+          <img src="https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+        <a href="https://moaathdev.github.io/green-iraq/">
+          <img src="https://img.shields.io/badge/Live%20Demo-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
+        </a>
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-CSS3-JS-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/Arabic%20RTL-006C35?style=flat-square" />
+        <img src="https://img.shields.io/badge/GitHub%20Pages-22272E?style=flat-square&logo=githubpages&logoColor=white" />
+        <img src="https://img.shields.io/badge/Lighthouse-100%25-247F23?style=flat-square" />
+      </p>
+      <p align="center"><b>Highlights:</b> Animated subtitle ticker • Custom SVG posters • Awareness programs • Donation flow with receipt • Fully responsive RTL UI</p>
+    </td>
+  </tr>
 </table>
 
 ## GitHub Stats

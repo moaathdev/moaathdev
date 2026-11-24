@@ -81,7 +81,7 @@ I'm (Moaath), a security-minded developer focused on building practical, readabl
 <div align="center">
 
 ![Moaaath's GitHub Stats](https://github-readme-stats.vercel.app/api?username=moaathdev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-starts.vercel.app/api/top-langs/?username=moaathdev&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=moaathdev&layout=compact&theme=tokyonight&hide_border=true)
 
 </div>
 
